@@ -2345,6 +2345,7 @@ interface PxSDFDesc {
     [Value] attribute PxBounds3 sdfBounds;
     attribute float narrowBandThicknessRelativeToSdfBoundsDiagonal;
     attribute unsigned long numThreadsForSdfConstruction;
+    attribute boolean lazyEvaluation;
 };
 
 [Prefix="physx::", NoDelete]
